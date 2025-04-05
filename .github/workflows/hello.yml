@@ -20,5 +20,10 @@ jobs:
         run: |
           echo $(date)
 
-
+  list_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Say list -l
+        run: |
+          echo $(list -l)
 
